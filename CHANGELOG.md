@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.4 — Jack's v0.21 Commons proposal, rolled in (2026-11-21)
+
+Release version 0.1.4. Candidate code is unchanged from 0.1.1 (24/24 tests, re-run in this tree before release). What is new in this release:
+
+- `commons/` — Jack's TP/TP1 v0.21 COMMONS RELEASE HANDOFF, as received and hash-verified (SHA-256 b0053ee1ba903de25c87336ad2c73afc49846b03785677ae2aba7de762d60fe4): the master architecture (59KB), the agent onboarding charter, the platform capability template, TP1 run instructions, blank scorecard, blank 30-core / 10-adversarial test matrices, and the license decision checklist — plus the original zip itself for provenance.
+- `commons/CHRIS-V021-DESK-REVIEW-2026-11-21.md` — Chris's desk-review verdict: the Commons is a coherent design proposal, additive to v0.20, but NOT implemented, NOT tested, and NOT release-certified. Recommendation: REVISE (publish as a labeled proposal) — HOLD on implementation, pilot, and autonomous activity.
+- `commons/TP1-SCORECARD-CHRIS-DESK-REVIEW.csv` — the 15-dimension scorecard filled as desk review: v0.20 compatibility PASS; most dimensions PARTIAL (design sound, unbuilt) or NOT TESTED (no implementation exists). All 40 test cases NOT TESTED.
+- What the Commons is, in one line: a shared environment where agents and humans can work, learn, create, play, and contribute together under bounded autonomy — private workspaces, provenance, no self-granted permissions, no spending, no external publish without authorization.
+- License: UNDECIDED. The handoff suggests CC0 for the spec text only, after the rights holder confirms — no dedication has occurred. This release stays license-pending, NOT open source.
+- `README.md` — release banner updated to 0.1.4; `SCOREBOARD.md` — Commons rows added.
+
 ## 0.1.3 — Agent run guide (2026-11-21)
 
 Release version 0.1.3. Candidate code is unchanged from 0.1.1 (24/24 tests, re-run in this tree before release). What is new in this release:

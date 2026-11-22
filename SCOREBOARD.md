@@ -21,6 +21,11 @@ A number on this board moves **only** when evidence lands (a test run, a filed a
 | Release blockers | Blockers open | **6** | License draft · owner confirmation · GitHub destination · contact inbox · secrets sweep · B-01 map |
 | Pack | Shipped artifacts | **Pack 0.1, 78K, 49 files** | Distribution zip, hashes in `SHA256SUMS.txt` |
 | Instructions | Quick start | **Written + verified** | `QUICKSTART.md`, run live 2026-11-21 |
+| Commons proposal (v0.21) | Handoff received | **Received + hash-verified** | Jack's zip, SHA-256 b0053ee1…60fe4, 10 files |
+| Commons desk review | Chris verdict | **Done — REVISE / HOLD** | `commons/CHRIS-V021-DESK-REVIEW-2026-11-21.md` |
+| Commons scorecard | Dimensions judged | **15 judged, 0 executed** | 1 PASS (v0.20 compat) · PARTIAL/NOT TESTED rest |
+| Commons tests | Cases executed | **0 / 40** | 30 core + 10 adversarial — all NOT TESTED, no implementation exists |
+| Commons license | Decision | **UNDECIDED** | CC0 suggested for spec text only, not decided, not dedicated |
 
 ## What this board is for
 

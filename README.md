@@ -1,6 +1,6 @@
 # TP/TP1 Universal Intelligence Platform — Community Development Preview
 
-> **Release 0.1.3 (2026-11-21) — the current public version.** Candidate code 0.1.1, unchanged. New in this release: run it with your own AI / agent — see `AGENT-RUN-GUIDE.md`. **License decision pending — this is a public development preview, NOT open source yet.** See `LICENSE-PENDING.md` and `QUICKSTART.md` to start in five minutes.
+> **Release 0.1.4 (2026-11-21) — the current public version.** Candidate code 0.1.1, unchanged. New in this release: Jack's v0.21 Commons proposal, rolled in as a labeled proposal under TP1 evaluation — see `commons/` and the desk review. The Commons is a design, not working software yet. **License decision pending — this is a public development preview, NOT open source yet.** See `LICENSE-PENDING.md` and `QUICKSTART.md` to start in five minutes.
 
 **Tagline:** Install small. Think big. Build what you need.  
 **Build ID:** `TP1-UNIVERSAL-INTELLIGENCE-001`  
