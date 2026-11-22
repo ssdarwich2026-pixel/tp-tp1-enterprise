@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3 — Agent run guide (2026-11-21)
+
+Release version 0.1.3. Candidate code is unchanged from 0.1.1 (24/24 tests, re-run in this tree before release). What is new in this release:
+
+- `AGENT-RUN-GUIDE.md` — yes, you can upload this pack to your own AI / agent and have your agent run it locally. Copy-paste prompt, what the agent should do, what it will NOT do (no live provider, no auto-run, no spending without approval), and the school idea: one lesson at a time, on evidence + grade.
+- `README.md` — new "Run it with your own AI / agent" section pointing to the guide.
+
 ## 0.1.2 — First public release (2026-11-21)
 
 Release version 0.1.2. Candidate code is unchanged from 0.1.1 (24/24 tests, re-run in this tree before release). What is new in this release:

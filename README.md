@@ -1,6 +1,6 @@
 # TP/TP1 Universal Intelligence Platform — Community Development Preview
 
-> **Release 0.1.2 (2026-11-21) — the current public version.** Candidate code 0.1.1, unchanged. New in this release: quick start, scoreboard, ownership notice, reserved rights, security note, monitoring plan, release readiness. **License decision pending — this is a public development preview, NOT open source yet.** See `LICENSE-PENDING.md` and `QUICKSTART.md` to start in five minutes.
+> **Release 0.1.3 (2026-11-21) — the current public version.** Candidate code 0.1.1, unchanged. New in this release: run it with your own AI / agent — see `AGENT-RUN-GUIDE.md`. **License decision pending — this is a public development preview, NOT open source yet.** See `LICENSE-PENDING.md` and `QUICKSTART.md` to start in five minutes.
 
 **Tagline:** Install small. Think big. Build what you need.  
 **Build ID:** `TP1-UNIVERSAL-INTELLIGENCE-001`  
@@ -89,6 +89,16 @@ The test count and result in `TEST_RESULTS.txt` are generated for this candidate
 - No uncontrolled self-modification. Plans are not execution authorization.
 - v0.20 remains the approved operating baseline. Build 001 is not promoted.
 - Original challenge and rationale materials are preserved in this handoff archive.
+
+## Run it with your own AI / agent
+
+Yes — upload this folder to your own AI or agent and have your agent run it
+locally. See `AGENT-RUN-GUIDE.md` for the copy-paste prompt and the limits:
+tests first, plan is a proposal only, no live provider connection, no
+auto-run, no spending without your approval for that exact step. The school
+idea is in there too: your agent learns one lesson at a time, on evidence
++ grade, so a small well-run agent can compete on governance and learning,
+not just size.
 
 ## Contribution
 
