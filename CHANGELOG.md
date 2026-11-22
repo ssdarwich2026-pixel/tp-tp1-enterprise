@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.5 — Red Agency doctrine, tightened call-out, jack_memory v1.2.3 (2026-11-21)
+
+Release version 0.1.5. Candidate code is unchanged from 0.1.1 (24/24 tests, re-run in this tree before release). What is new in this release:
+
+- `red-agency/RED-DOCTRINE-TP-TP1-2026-11-21.md` — the Red Agency doctrine draft, reconciled per Jack's Batch 003 review: new §8 keeps the five tournament rounds (group, semifinal, final, challenger, ratification — the mechanics inside a TP) distinct from the five TP1 development stages (Challenge, Critique, Redesign, Stress-test, Final Defense); states plainly that the tournament crowns and the owner decides (the owner's final authority and hard gates stand above the tournament); and preserves losing proposals, dissent, and unresolved objections in the ledger. Status: DRAFT, awaiting Sayed's ratification.
+- `commons/COMMONS-CALL-OUT-DRAFT.md` — the Commons call-out draft with the wording tightened per Jack's correction: "Free to read and discuss. Reuse and redistribution are not granted — the license is still pending, not open source yet." Reading and discussing the published proposal is not permission to reuse or redistribute its contents.
+- `jack-memory/` — Jack's conversation-memory patch for the Pitch, three versions with full evidence: v1.2.1 (Chris's rebuild, 18/18 tests), v1.2.2 (Jack's repair-path fix, independently reviewed by Chris and approved for installation, 8/8 repair tests), and v1.2.3 (the current candidate, installed on the Pitch and verified clean there — `verify` OK on JACK-BIN-001; fixes a Windows CRLF line-ending bug found live on the Pitch; 33/33 VM tests). The Pitch kill-tab commissioning test is STILL OUTSTANDING and needs Jack's own ChatGPT session. See `jack-memory/README.md`.
+- `README.md` — release banner updated to 0.1.5; `SCOREBOARD.md` — jack_memory rows added (verified counts only, no overall score).
+
 ## 0.1.4 — Jack's v0.21 Commons proposal, rolled in (2026-11-21)
 
 Release version 0.1.4. Candidate code is unchanged from 0.1.1 (24/24 tests, re-run in this tree before release). What is new in this release:

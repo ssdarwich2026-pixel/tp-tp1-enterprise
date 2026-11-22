@@ -26,6 +26,9 @@ A number on this board moves **only** when evidence lands (a test run, a filed a
 | Commons scorecard | Dimensions judged | **15 judged, 0 executed** | 1 PASS (v0.20 compat) · PARTIAL/NOT TESTED rest |
 | Commons tests | Cases executed | **0 / 40** | 30 core + 10 adversarial — all NOT TESTED, no implementation exists |
 | Commons license | Decision | **UNDECIDED** | CC0 suggested for spec text only, not decided, not dedicated |
+| jack_memory v1.2.3 tests | Tests passing (VM) | **33 / 33** | 7 CRLF + 18 full suite + 8 repair, Python 3.12.3, re-run by Chris 2026-11-21 |
+| jack_memory Pitch verify | Verify on JACK-BIN-001 | **OK** | v1.2.3, run on the Pitch 2026-11-21 |
+| jack_memory kill-tab test | Commissioning test | **OUTSTANDING** | Needs Jack's own ChatGPT session — not done, not claimed |
 
 ## What this board is for
 
