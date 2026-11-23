@@ -1,5 +1,13 @@
 # Changelog
 
+## koth-v0.4-preview — King of the Hill engine preview (2026-11-23)
+
+- King of the Hill v0.4 published as a community development preview (license pending, NOT open source): append-only weekly Live 200 chart engine (MODEL/HYBRID/SYSTEM), grading guards (two independent graders, self-grading rejected, SHA-256 evidence required), provider pricing-evidence gate, 42 candidate models (all unverified, all disabled), weekly-publish retry + systemd timer definitions, backup/restore utilities, read-only dashboard shell.
+- Release asset: king-of-the-hill-v0.4-preview.zip, 49 files, 53,854 bytes, SHA-256 e182cf0a2b203642ca0ad9392519e91d5cec76ecf6c237bd5c71fcfe7c8b247a. Note: the zip's internal folder is still named king_of_the_hill_build_0_3 (packaging quirk, fixed in v0.5).
+- Known defects: duplicate /charts/rules route; check_free_models.py crashes on the shipped manifest (ModelRecord has no `status` field); test suite has no DB isolation (14/14 fresh, 13/14 repeat).
+- Launch reality: 0 verified free endpoints, no live provider, 14-day clock not started, scheduler not installed, dashboard not served.
+- README.md — new King of the Hill section; SCOREBOARD.md — KOTH rows added.
+
 ## 0.1.5 — Red Agency doctrine, tightened call-out, jack_memory v1.2.3 (2026-11-21)
 
 Release version 0.1.5. Candidate code is unchanged from 0.1.1 (24/24 tests, re-run in this tree before release). What is new in this release:
