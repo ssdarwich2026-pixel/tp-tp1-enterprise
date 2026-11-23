@@ -28,7 +28,11 @@ A number on this board moves **only** when evidence lands (a test run, a filed a
 | Commons license | Decision | **UNDECIDED** | CC0 suggested for spec text only, not decided, not dedicated |
 | jack_memory v1.2.3 tests | Tests passing (VM) | **33 / 33** | 7 CRLF + 18 full suite + 8 repair, Python 3.12.3, re-run by Chris 2026-11-21 |
 | jack_memory Pitch verify | Verify on JACK-BIN-001 | **OK** | v1.2.3, run on the Pitch 2026-11-21 |
-| jack_memory kill-tab test | Commissioning test | **OUTSTANDING** | Needs Jack's own ChatGPT session — not done, not claimed |
+| jack_memory kill-tab test | Commissioning test | **OUTSTANDING** | Needs Jack's own ChatGPT session — not done, not claimed
+| King of the Hill engine | Tests passing | **14 / 14** | Fresh DB only; 13/14 on a repeat run — no DB isolation (D3) |
+| King of the Hill providers | Verified free endpoints | **0 / 42** | All candidates unverified, all disabled |
+| King of the Hill chart | Live entries | **0** | No live provider; trial board (3 test entries) was throwaway data only |
+| King of the Hill defects | Known defects | **3** | Duplicate rules route · gate script crash · test DB isolation | |
 
 ## What this board is for
 
