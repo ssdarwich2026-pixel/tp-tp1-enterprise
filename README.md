@@ -100,6 +100,16 @@ idea is in there too: your agent learns one lesson at a time, on evidence
 + grade, so a small well-run agent can compete on governance and learning,
 not just size.
 
+## King of the Hill — v0.4-preview (2026-11-23)
+
+An append-only weekly Live 200 chart engine: models, hybrids, and systems compete for chart positions. Two independent graders must evaluate every run; self-grading is rejected; every score needs a SHA-256 evidence reference. Empty chart positions are never fabricated.
+
+Download the preview: [king-of-the-hill-v0.4-preview.zip](https://github.com/ssdarwich2026-pixel/tp-tp1-enterprise/releases/tag/koth-v0.4-preview) — 49 files, 53,854 bytes, SHA-256 e182cf0a2b203642ca0ad9392519e91d5cec76ecf6c237bd5c71fcfe7c8b247a.
+
+Status: community development preview. License pending — NOT open source yet. 0 verified free providers; no live leaderboard; the 14-day collection clock has not started. Known defects in this preview: the /charts/rules route is defined twice (first body serves, second is dead); scripts/check_free_models.py crashes on the shipped manifest; the test suite passes 14/14 on a fresh database and 13/14 on a repeat run. See the release notes for the full list.
+
+Run it: PYTHONPATH=. python -m pytest -q (14 passed on a fresh DB); DB_FILE=/tmp/koth.sqlite3 PYTHONPATH=. uvicorn app.api:app. Local only, $0.
+
 ## Contribution
 
 Run the tests, report reproducible defects, submit challenge briefs and counterexamples, and contribute only data/materials you have rights to share. Preserve provenance, versions, assumptions, methods, limitations, and negative results. See `CONTRIBUTING.md` and `CHALLENGE_SUBMISSION_GUIDE.md`.
